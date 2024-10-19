@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "*.embeddedhtml": "html",
+        "*.html": "html",
+        "*.ts": "typescriptreact",
+        "*.go": "go",
+        "ostream": "cpp"
+    }
+}
