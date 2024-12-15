@@ -5,21 +5,25 @@
 using namespace std;
 
 int main(){
-    string symbol;
-    int s[3] = {0, 1, 2};
+    string ab,ac,bc;
 
-    for (int i = 0; i < 3; i++)
-    {
-        cin >> symbol;
+    cin >> ab >> ac >> bc;
 
-        if(symbol == ">"){
-            
-        }else{
-
-        }
+    if(ab == ">" && bc == ">"){
+        cout << "B" << endl;
+    }else if(ab == ">" && ac == "<"){
+        cout << "A" << endl;
+    }else if(ab == "<" && bc == "<"){
+        cout << "B" << endl;
+    }else if(ab == "<" && ac == ">"){
+        cout << "A" << endl;
+    }else if(ac == ">" && bc == "<"){
+        cout << "C" << endl;
+    }else if(ac == "<" && bc == ">"){
+        cout << "C" << endl;
+    }else{
+        cout << "invalid" << endl;
     }
-    
-
 
     return 0;
 }

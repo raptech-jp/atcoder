@@ -4,6 +4,8 @@
         "*.html": "html",
         "*.ts": "typescriptreact",
         "*.go": "go",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "iostream": "cpp",
+        "vector": "cpp"
     }
 }
